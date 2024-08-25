@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:url(./assets/top-view-list-written-black-notebook-black-table-free-space.jpg) center/cover;
+}
+
+.container {
+  
+  background: rgba(203, 201, 213, 0.881);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color:black;
+  text-decoration: underline;
+}
+h2{
+  text-align: center;
+  color: #bb1645;
+}
+
+input[type="text"] {
+  width: calc(100% - 50px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #025aa5;
+  color: rgb(221, 11, 11);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2d367895;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #563f3f;
+  border: 1px solid #ea0505;
+  border-radius: 5px;
+}
+
+
+li span {
+  flex: 1;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+li button:first-of-type {
+  color: white;
+  background: #d9534f;
+}
+
+li button:first-of-type:hover {
+  background: #c9302c;
+}
+
+li button:last-of-type {
+  color: white;
+  background: #7b3463;
+}
+
+li button:last-of-type:hover {
+  background: #025aa5;
+}
+
+li span {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight:bold;
+  font-size: large;
+}
+
+li span span {
+  flex: 1;
+}
+
+li span button {
+  margin-left: 10px;
+}
+.add{
+  background-color: black;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 0px;
+}
