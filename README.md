@@ -38,6 +38,6 @@ This repository contains a collection of basic React projects I've worked on to 
 
 To run any of these projects locally, clone the repository and navigate to the desired project folder:
 
-git clone https://github.com/yourusername/React-Practice.git
+git clone https://github.com/yourusername/React-Practice.git  
 cd React-Practice
 
